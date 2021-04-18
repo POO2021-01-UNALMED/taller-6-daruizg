@@ -17,6 +17,7 @@ public class Automovil extends Vehiculo {
 		automovilesCreados ++;
 		
 		fabricante.getPais().setNumeroVentas(fabricante.getPais().getNumeroVentas() + 1);
+		fabricante.setNumVentas(fabricante.getNumVentas() + 1);
 	}
 	
 	// GETTERS Y SETTERS
