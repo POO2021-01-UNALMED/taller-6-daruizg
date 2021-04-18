@@ -26,6 +26,7 @@ public class Fabricante {
 		for (Fabricante fabricante: fabricas) {
 			
 			if (fabricante.numVentas > mayorVenta) {
+				mayorVenta = fabricante.numVentas;
 				mayorFabricante = fabricante;
 			}
 		}

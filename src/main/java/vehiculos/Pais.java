@@ -24,6 +24,7 @@ public class Pais {
 		for (Pais pais: paises) {
 			
 			if (pais.getNumeroVentas() > mayor) {
+				mayor = pais.getNumeroVentas();
 				maxVendedor = pais;
 			}
 		}
